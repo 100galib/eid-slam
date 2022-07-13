@@ -1,0 +1,225 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.9), rgba(0,0,0,0.1)), url(../image/headerPicture.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+.header_section{
+    width: 30%;
+    padding-top: 70px;
+    padding-left: 150px;
+}
+.header_section h1{
+    color: #ffffff;
+    font-size: 40px;
+}
+.header_section p{
+    font-size: 16px;
+    color: white;
+}
+.header_section  button{
+    padding: 12px 22px;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.header_section  button:hover{
+    background-color: rgb(238, 50, 50);
+}
+.second_section{
+    display: flex;
+}
+.seceond_left_section{
+    width: 30%;
+    padding-top: 70px;
+    padding-left: 150px;
+}
+.seceond_left_section h1{
+    color: #000000;
+    font-size: 40px;
+}
+.seceond_left_section p{
+    font-size: 16px;
+    color: rgb(161, 161, 161);
+}
+.seceond_left_section  button{
+    padding: 12px 22px;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.seceond_left_section  button:hover{
+    background-color: rgb(238, 50, 50);
+}
+.seceond_right_section{
+    width: 454px;
+    height: 255px;
+    padding-top: 100px;
+    margin-left: 100px;
+
+}
+.seceond_right_section video{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+.third_section{
+    display: flex;
+}
+.third_left_section{
+    width: 454px;
+    height: 255px;
+    margin-top: 100px;
+    margin-left: 150px;
+
+}
+.third_left_section img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.third_right_section{
+    width: 30%;
+    margin-top: 60px;
+    margin-left: 123px;
+}
+.third_right_section h1{
+    color: #000000;
+    font-size: 40px;
+}
+.third_right_section p{
+    font-size: 16px;
+    color: rgb(161, 161, 161);
+}
+.third_right_section  button{
+    padding: 12px 22px;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.third_right_section  button:hover{
+    background-color: rgb(238, 50, 50);
+}
+.fourth_section{
+    margin-top: 150px;
+}
+.fourth_first_section{
+    text-align: center;
+}
+.fourth_first_section h1{
+    font-size: 40px;
+    width: 30%;
+    margin: 0 35%;
+}
+.fourth_first_section p{
+    font-size: 14;
+    width: 40%;
+    margin: 0 30%;
+    margin-top: 20px;
+    color: rgb(161, 161, 161);;
+}
+.fourth_second_section{
+    width: 65%;
+    margin: 0 17.5%;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.fourth_common_style{
+    width: 45%;
+    display: flex;
+    background-color: rgb(248, 192, 219);
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.fourth_common_style img{
+    display: block;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.fifth_section{
+    width: 80%;
+    margin: 0 10%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.fifth_section img{
+    width: 32%;
+    height: auto;
+    border-radius: 10px;
+}
+.sixth_section{
+    width: 80%;
+    margin: 0 10%;
+    margin-top: 80px;
+}
+.sixth_first_section{
+    text-align: center;
+}
+.sixth_first_section h1{
+    font-size: 40px;
+    width: 60%;
+    margin: 0 20%;
+}
+.sixth_first_section p{
+    font-size: 14;
+    width: 45%;
+    margin: 0 27.5%;
+    margin-top: 20px;
+    color: rgb(161, 161, 161);;
+}
+.sixth_second_section{
+    width: 80%;
+    margin: 0 10%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.sixth_second_section > div{
+    width: 32%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.sixth_second_section img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.small_section_six{
+    padding: 20px;
+}
+.small_section_six p{
+    color: gray;
+    line-height: 25px;
+}
+.small_section_six a{
+    color: red;
+    font-weight: 700;
+}
