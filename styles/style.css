@@ -223,3 +223,21 @@ header{
     color: red;
     font-weight: 700;
 }
+footer{
+    margin-top: 80px;
+    height: 200px;
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+}
+footer h1{
+    color: red;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    padding-top: 60px;
+    margin: 0;
+}
+footer p{
+    color: white;
+    font-size: 12px;
+}
